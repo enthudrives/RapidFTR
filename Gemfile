@@ -26,6 +26,8 @@ gem 'capistrano'
 gem 'newrelic_rpm'
 gem 'will_paginate'
 gem "i18n-js"
+gem 'rubyzip'
+gem 'win32-open3', :platforms => :mingw
 
 group :development, :assets do
   gem 'sass'
