@@ -574,3 +574,107 @@ body {
     }
   }
 }
+
+.form_page{
+  .form_details_panel{
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    padding:10px;
+
+
+
+    .chkbox_visible{
+      padding:10px;
+    }
+  }
+
+  .default_lang_panel{
+    float:left;
+    padding:5px;
+    width:445px;
+  }
+  .translation_lang_panel{
+    float:left;
+    padding:5px;
+    width:445px;
+  }
+
+  .lang_title{
+    color:#666;
+    min-height: 25px;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 10px;
+
+    span{
+      color:#000;
+
+    }
+
+    select{
+      width:auto !important;
+      padding:0px !important;
+      font-size: 0.8em;
+    }
+  }
+
+  fieldset{
+    background: #fff;
+    border-radius: 5px;
+    padding:10px 0px;
+
+    div{
+      @extend .clearfix;
+      padding:7px 10px;
+
+
+      .key{
+        width:165px;
+        float:left;
+      }
+      input, textarea{
+        float: left;
+      }
+    }
+  }
+
+  h3{
+    border-bottom:1px solid #aaa;
+    font-size:1.1em;
+    font-weight: bold;
+    padding:20px 0px 10px;
+  }
+
+  .add_field{
+    padding:5px;
+    display: inline-block;
+  }
+
+  .fields_section{
+    background:#eee;
+    padding:10px;
+    @include borderRadius(5px);
+
+    ul.field_types{
+      border-bottom: 1px solid #ddd;
+
+      li{
+        float:left;
+        padding:5px 20px 15px;
+
+        a{
+          padding:5px 10px;
+
+          &.sel{
+            background:#1d76fb;
+            color:#fff;
+            @include borderRadius(15px);
+          }
+        }
+      }
+
+    }
+
+
+  }
+}
