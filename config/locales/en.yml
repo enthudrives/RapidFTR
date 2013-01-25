@@ -339,6 +339,7 @@ en:
     date_field: "Date Field"
 
     add: "Add Field"
+    type: "Field type"
   replication:
     label: Replication
     index: Manage Replications
